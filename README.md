@@ -1,16 +1,18 @@
-# Website
+# franktse.me
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
 ```
+$ npm
 $ yarn
 ```
 
 ### Local Development
 
 ```
+$ npm run start
 $ yarn start
 ```
 
@@ -19,6 +21,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
+$ npm run build
 $ yarn build
 ```
 
