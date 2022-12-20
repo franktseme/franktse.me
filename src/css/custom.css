@@ -28,3 +28,12 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.theme-doc-markdown > p:has(> img) {
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: var(--ifm-global-spacing);
+  background-color: var(--ifm-pre-background);
+  border-radius: var(--ifm-global-radius);
+}
